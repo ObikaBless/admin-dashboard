@@ -1,0 +1,254 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+body{
+    width: 100%;
+    background: #f2f2fa;
+}
+
+/* HEADING  */
+.heading{
+    color: #767099;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+/* NAVIGATION  */
+[data-tab-info] {
+    display: none;
+}
+  
+.active[data-tab-info] {
+    display: block;
+}
+  
+.tab-content {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(82, 75, 75);
+}
+  
+.tabs {
+    font-size: 40px;
+    color: #6e6893;
+    display: flex;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    padding-left: 28rem;
+}
+.amount{
+    font-size: larger;
+    color: #6d5bd0;
+}
+  
+.tabs span {
+    /* background: rgb(28, 145, 38); */
+    margin-top: 6px;
+    margin-left: 2rem;
+    padding: 9px;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+  hr{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -8px;
+    color: #25213b;
+    border: 1px solid #9393b1;
+  }
+.tabs span:hover {
+    /* background: #25213b; */
+    cursor: pointer;
+    color: #25213b;
+}
+
+.active-tab {
+    color: #25213b;
+    border-bottom: 2px solid black;
+    height: 1.9rem;
+}
+
+
+/* TABLE STYLING  */
+thead td{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #f4f2ff;
+    text-align: start;
+    /* border-bottom: 1px solid #9393b1; */
+    padding: 1px;
+    color: #767099;
+}
+
+table {
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #eef0f3;
+}
+.board{
+    /* width: 100%; */
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.board h5{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+.board p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+input.checkbox {
+    transform: scale(2);
+    margin: 30px;
+    color: #767099;
+  }
+.fa-chevron-circle-down{
+    color: #767099;
+    font-size: 18px;
+}
+
+.active-flex{
+    display: flex;
+    gap: 6px;
+}
+.active-flex p{
+    background: #d7dbfa;
+    padding: 2px 10px;
+    align-items: center;
+    border-radius: 40px;
+    color: #2c0bc1;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.paid-flex{
+    display: flex;
+    gap: 6px;   
+}
+.paid-flex p{
+    background: #d7fada;
+    /* background: #fad7d7; */
+    padding: 2px 10px;
+    align-items: center;
+    border-radius: 40px;
+    color: #10c316;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.overdue-flex{
+    display: flex;
+    gap: 6px;   
+}
+.overdue-flex p{
+    background: #fad7d7;
+    padding: 2px 10px;
+    align-items: center;
+    border-radius: 40px;
+    color: #c31010;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.unpaid-flex{
+    display: flex;
+    gap: 6px;   
+}
+.unpaid-flex p{
+    background: #faebd7;
+    padding: 2px 10px;
+    align-items: center;
+    border-radius: 40px;
+    color: #ffb300;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.fa-circle{
+    font-size: 8px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+span{
+    font-weight: bold;
+    font-size: 13px;
+    color: #787d8d;
+}
+.span2{
+    font-weight: bold;
+    font-size: 13px;
+    color: #000;
+}
+.edit{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align:end;
+}
+.fa-ellipsis-v{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: end;
+}
+.amount2 h5{
+    font-size: 18px;
+}
+.input-group-text{
+    color: #767099;
+    background: #f2f2fa;
+    border: none;
+    cursor: pointer; 
+}
+.form-control{
+    background-color: #f2f2fa;
+    font-size: 12px;
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+.input-group{
+    margin-left: -24rem;
+    width: 24rem !important;
+    margin-top: 6px;
+}
+.btn{
+    border:1px solid #c3c3da !important;
+    margin-top: 3px;
+    gap: 8px;
+}
+.fa-filter{
+   color:#6060af;
+}
